@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020-10-10 11:27
 # @Author  : Xelawk
-# @FileName: 3dunet_model.py
+# @FileName: unet_model.py
 
 
 """ Full assembly of the parts to form the complete network """
