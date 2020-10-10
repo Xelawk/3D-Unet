@@ -32,6 +32,10 @@ class UNet3D(nn.Module):
         self.outc = OutConv(64, n_classes)
 
     def forward(self, x):
+        """
+        input of x is [N, n_channels, depth, height, width]
+        output of x is [N, n_classes, depth, height, width]
+        """
         x1 = self.inc(x)
         x2 = self.down1(x1)
         x3 = self.down2(x2)
