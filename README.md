@@ -1,3 +1,2 @@
 # 3D-Unet
-
-3D-Unet for 3D dataset training
+This repository is 3D version of Unet based on the repository of [milesial / Pytorch-UNet](https://github.com/milesial/Pytorch-UNet)
